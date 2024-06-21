@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: a9398c93fe226eb489b192908f3ea310
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Kalameh
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f2ed2c0aad3ea254faed2a3120c71b65, type: 3}
+  - {fileID: 12800000, guid: b3c7247c38a69214f89f9cd0a4e774c2, type: 3}
+  - {fileID: 12800000, guid: 2754bbd1373edc8438a02453496c7dd4, type: 3}
+  - {fileID: 12800000, guid: 59006687fa5507246bf135502a906147, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,19 @@
+-keep class com.yasirkula.unity.* { *; }
+-keep class com.unity.** { *;}
+-keep class com.unity.androidnotifications.** { *;}
+-keepclassmembers class com.unity.androidnotifications.** { *;}
+-keepnames class com.unity.androidnotifications.** { *;}
+-keepclassmembernames class com.unity.androidnotifications.** { *;}
+-keep class  com.gameanalytics.sdk { *; }
+-keep class  com.gameanalytics.sdk.** { *; }
+-keep class  com.gameanalytics.sdk.GAPlatform { *; }
+-keep class  com.gameanalytics.sdk.GAPlatform.** { *; }
+-keep class android.net.ConnectivityManager.** { *; }
+-keep class com.google.android.instantapps.InstantApps { *; }
+-keepclassmembers class com.google.android.instantapps.InstantApps { *; }
+-keep class com.android.vending.billing { *; }
+-keep class com.farsitel.bazaar.** { *; }
+-keep class com.myket.MyketIABPlugin.** { *; }
+-keep class com.myket.MyketIABPlugin { *; }
+-keep class com.pushpole.sdk.PushPole.** { *; }
+-keep class com.pushpole.sdk.PushPole { *; }

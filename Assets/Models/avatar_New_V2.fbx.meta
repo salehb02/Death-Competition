@@ -1,0 +1,2425 @@
+fileFormatVersion: 2
+guid: bac5fb0b3b6ac8640bed38c4f373e177
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      74: 1079334538823460720
+    second: rig|Base
+  - first:
+      74: -7498869747433932511
+    second: rig|BlockUp
+  - first:
+      74: 3923362195661919021
+    second: rig|Falling
+  - first:
+      74: -9065557658802050537
+    second: rig|Hanging_Idle
+  - first:
+      74: 1879134242769398364
+    second: rig|Hanging_Stress
+  - first:
+      74: -2340049276930440972
+    second: rig|Happy
+  - first:
+      74: -7361427651036151181
+    second: rig|Idle
+  - first:
+      74: 1054118585403806542
+    second: rig|Look_Cloth
+  - first:
+      74: 2446977740000673902
+    second: rig|Look_Hair
+  - first:
+      74: -7728465065407492505
+    second: rig|Look_Shoe
+  - first:
+      74: -8255510791433873201
+    second: rig|Sad
+  - first:
+      74: 4635913861930727484
+    second: rig|Strees
+  - first:
+      74: 977259192905754159
+    second: rig|Success
+  - first:
+      74: 3105012419657135080
+    second: rig|Swim
+  - first:
+      74: 3025595591517944916
+    second: rig|WaterRise_Panic
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: 3a7eb63e02f3da44c9a511f34708a658, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black Shoe
+    second: {fileID: 2100000, guid: 3ba227f41a930fc43befa44574956ad2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black.001
+    second: {fileID: 2100000, guid: 7fc9b0d5c27d76a4d80204f31338ac9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue
+    second: {fileID: 2100000, guid: 3e629bd7575297848b64c1b98ab54fef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue.001
+    second: {fileID: 2100000, guid: cf0bd7bcd3d263048a02873b3966f16d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlueShoe
+    second: {fileID: 2100000, guid: 89ebe4d273511ac4ebd9296898d721a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: 8c033ae46eb5a654bbdd3545557c5d5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body.002
+    second: {fileID: 2100000, guid: 3d45c112dfc8eda4f8cbce74a9b326f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BodyMaterial
+    second: {fileID: 2100000, guid: 8c033ae46eb5a654bbdd3545557c5d5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brown
+    second: {fileID: 2100000, guid: 13f6f2e707b24fb4f9ced364abd2c714, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrownShoe
+    second: {fileID: 2100000, guid: 230cb45017e03f9419a2848a7bd594f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Coat
+    second: {fileID: 2100000, guid: 036114f2f1e2e7e4699e963a8c0cfdd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkBrownShoe
+    second: {fileID: 2100000, guid: 312986ec93cfc28409fa8687c43b9d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold
+    second: {fileID: 2100000, guid: 53d44235d9013844ea444ef99969272d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Green
+    second: {fileID: 2100000, guid: aee5ab04f9a3cea479d13a0dab1fa72f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grey
+    second: {fileID: 2100000, guid: d03439544ca226044a2aef13a9f019bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hair
+    second: {fileID: 2100000, guid: 10735984ad312df42b4a1cda4d401e90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HairBand
+    second: {fileID: 2100000, guid: cfdd9ec6c067a2a41b8d652b7d659c7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: d2a3e5a47ff1bd843964618a7a03f93d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pants
+    second: {fileID: 2100000, guid: bdedfe459860cd546aeafe198411b6fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Purple
+    second: {fileID: 2100000, guid: 6abc0c3dd586f234da4be55579ec96d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red
+    second: {fileID: 2100000, guid: b72c72b863ad7fe4f88b1c70e204f43e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RedShoe
+    second: {fileID: 2100000, guid: b71b0c12de9d7f940879879b30ed955f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shirt
+    second: {fileID: 2100000, guid: 76a82c7fa76ddfd439e4da3aab124f33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit10_1
+    second: {fileID: 2100000, guid: 540b992c4f39a1e47925a12a66f5f776, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit10_2
+    second: {fileID: 2100000, guid: 015164c95b4df5c49804e89381790ad0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit10_3
+    second: {fileID: 2100000, guid: cbb375eeea9efb049bf29e2359e4f0f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit10_4
+    second: {fileID: 2100000, guid: ff881545b97d1664e9233624e51a4b6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit10_5
+    second: {fileID: 2100000, guid: 9e5984965f390784da8764e2305cdb1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit11_1
+    second: {fileID: 2100000, guid: 2278795aa2c08554299314d9f7b0d16f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit11_2
+    second: {fileID: 2100000, guid: 45fb2c3e130c2204d9a5f3b168c1bffb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit11_3
+    second: {fileID: 2100000, guid: bc755f6e0fa8e714ba2bf586ac6e0c45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit11_4
+    second: {fileID: 2100000, guid: c582f1ed78fec854e813eab3162df06b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit12_1
+    second: {fileID: 2100000, guid: b822837c065208d4a8675dc324880767, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit12_2
+    second: {fileID: 2100000, guid: e387cb9d9f3b46d49b792de58f585428, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit12_3
+    second: {fileID: 2100000, guid: 39bb433ecc941aa4288248ac8e5c2cb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit12_4
+    second: {fileID: 2100000, guid: e60ab9fcbb353d140a739386142c9efc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit13_1
+    second: {fileID: 2100000, guid: 24623965a21fe9f4a8a08c3ddf8d8267, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit13_2
+    second: {fileID: 2100000, guid: c7b5c7214e822f140bde2bf754f2f8ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit13_3
+    second: {fileID: 2100000, guid: 656b106b59cd6394b840b8ce13b8a435, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit13_4
+    second: {fileID: 2100000, guid: 479e54fc2fde205408294fc44f62486a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit14_1
+    second: {fileID: 2100000, guid: c2db6de6f64281848833fd6a9b2d0c05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit14_2
+    second: {fileID: 2100000, guid: 67c4cb786e33f784ab5d385484933f2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit14_3
+    second: {fileID: 2100000, guid: ea38277929696d240b6da31052d8ede0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit15_1
+    second: {fileID: 2100000, guid: 9639d470ebb986d43a68b6930c6c09a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit15_2
+    second: {fileID: 2100000, guid: 6b1ec27a1510dcf4d88699a741c4ce5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit15_3
+    second: {fileID: 2100000, guid: 8f113872c8e039a4498d713e701c46ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit15_4
+    second: {fileID: 2100000, guid: f6ff83980ad692640b88aba44006d6db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit16_1
+    second: {fileID: 2100000, guid: fd3efe63603fb72429e01a7125ffd941, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit16_2
+    second: {fileID: 2100000, guid: ef3e4b20064957e428b8dd5be8e84571, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit16_3
+    second: {fileID: 2100000, guid: 2ba36cf6082c7a846b135ed5d03bc52f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit16_4
+    second: {fileID: 2100000, guid: d7e463c03dde98a478dbdb2ba6406900, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit17_1
+    second: {fileID: 2100000, guid: 02191d5561e81ae44a58a6817c2956d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit17_2
+    second: {fileID: 2100000, guid: 04404f4d0ffebb04db7e8a51cdb0a9ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit17_3
+    second: {fileID: 2100000, guid: f571830dc06444440b3ffad0a5392cdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit17_4
+    second: {fileID: 2100000, guid: eac690cd32059bb49b714b82ab4fbd6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit18_1
+    second: {fileID: 2100000, guid: a0f96e341fb4f444c80d45427afc2b87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit18_2
+    second: {fileID: 2100000, guid: ed34baf1bcb2d114f81862b98bab5f9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit18_3
+    second: {fileID: 2100000, guid: 22e691121a249364fb768827d372b219, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit18_4
+    second: {fileID: 2100000, guid: aad5944daa8a7ea44ae52dae565392b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit19_1
+    second: {fileID: 2100000, guid: 06a06b1d766345e45ba4d71f9cbfeb47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit19_2
+    second: {fileID: 2100000, guid: 2bbca9e1f3abed9478490798dc4b3cc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit19_3
+    second: {fileID: 2100000, guid: 51218b95ea5a25d4e810636f8cd8c3ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit19_4
+    second: {fileID: 2100000, guid: cda5e516551cc20438050ee344ef0a65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit1_1
+    second: {fileID: 2100000, guid: 409b17b4316b09b4fa82a6d17d5ea321, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit1_2
+    second: {fileID: 2100000, guid: 79c5eaaed96e46d48807ff23afcb9922, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit1_5
+    second: {fileID: 2100000, guid: 58f88e5bc74630a4b987f170d1518028, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit20_1
+    second: {fileID: 2100000, guid: 19b9c39a76c8c0946aa61d1757f1cc44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit20_2
+    second: {fileID: 2100000, guid: 5c4df2ed0a4384f4f8a4f45b14aa9264, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit20_3
+    second: {fileID: 2100000, guid: 1663a9e8989a34f48a2b116da95d74ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit20_4
+    second: {fileID: 2100000, guid: 73b65e2ef35479e4ab67b3fbc882700b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit20_5
+    second: {fileID: 2100000, guid: 300d1a52f5962e64e9a2bd1603b6d02b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit20_Woman_1
+    second: {fileID: 2100000, guid: 3449305fe79ee7f4b8ef925473029818, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit20_Woman_2
+    second: {fileID: 2100000, guid: fc026b6839f08694fa10bcbd9ab97a5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit20_Woman_3
+    second: {fileID: 2100000, guid: 6320e084951c9064581adf9b7ae02f8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit20_Woman_4
+    second: {fileID: 2100000, guid: 6cf5b51fbf6cd9f4790ee01d2e9b7d6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit20_Woman_5
+    second: {fileID: 2100000, guid: bba4c8f8b800a5940aa2fd240a418d8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit21_1
+    second: {fileID: 2100000, guid: e37189b6ae66f76449acd333de109993, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit21_2
+    second: {fileID: 2100000, guid: 5e7130a9c1588f0458a365046477f292, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit21_3
+    second: {fileID: 2100000, guid: 13d03898b3943ec449c50a957141bbf5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit21_4
+    second: {fileID: 2100000, guid: 481177d183772574bbb18a849e2f8931, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit21_Woman_1
+    second: {fileID: 2100000, guid: d5ec693aee835ba40a3fdcbdb6d65030, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit21_Woman_2
+    second: {fileID: 2100000, guid: fba738c32ce1dbd44a4c7cf1e063d2c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit21_Woman_3
+    second: {fileID: 2100000, guid: 2c6cbda288fa94847abd156370b7a7e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit21_Woman_4
+    second: {fileID: 2100000, guid: 6d1f6ae5c5d408140a0b0adfefcf6eb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit22_1
+    second: {fileID: 2100000, guid: 119b0da5dc540d9438f34f2e5d047664, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit22_2
+    second: {fileID: 2100000, guid: 47195ac1823e3cc49ac063df9fed20b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit22_Woman_1
+    second: {fileID: 2100000, guid: 809cba3ceecd7c94cb2cf08090c2625e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit22_Woman_2
+    second: {fileID: 2100000, guid: b5f9d4f735deae140a3d74d05c0ae1b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit22_Woman_3
+    second: {fileID: 2100000, guid: ec9c890d6d7f0aa41ba13c4c8c630b0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit23_1
+    second: {fileID: 2100000, guid: 7f59ce2ee75b7b944839092003be2f2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit23_2
+    second: {fileID: 2100000, guid: eeff3750c9d15934e994bffb351a690f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit23_3
+    second: {fileID: 2100000, guid: c189477a41bc11541877648c5989d119, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit23_Woman_1
+    second: {fileID: 2100000, guid: d470682ab78410f4fbe84c0073b2c733, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit23_Woman_2
+    second: {fileID: 2100000, guid: 60b6db5fc68ca0b47a6a46ec0d7bc032, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit23_Woman_3
+    second: {fileID: 2100000, guid: 0c550030647977349b9ee6c04db65b44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit24_1
+    second: {fileID: 2100000, guid: 7170995ccbe24ce4f94f0f470a19bea7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit24_2
+    second: {fileID: 2100000, guid: 77bff8cea94f66c4b9a7fedd7b7032f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit24_3
+    second: {fileID: 2100000, guid: 3d6dd07b0183670439f4746e22e003e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit24_4
+    second: {fileID: 2100000, guid: 3ef6a0f2d5ff43f4e915bbd4d6289f79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit24_5
+    second: {fileID: 2100000, guid: 692c7e09315cec14aba21bacedb81deb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit24_Woman_1
+    second: {fileID: 2100000, guid: 80e32efcda7a40a4b83ac1d763355131, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit24_Woman_2
+    second: {fileID: 2100000, guid: cedfcaa8e82f392488d52d029977ba22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit24_Woman_3
+    second: {fileID: 2100000, guid: 3347f90967b4ca24db818e509dc8ce23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit24_Woman_4
+    second: {fileID: 2100000, guid: 93050ee2cb65bf049a4b637cbafdbf4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit24_Woman_5
+    second: {fileID: 2100000, guid: f16c09f7baff2c542a32f51e417dcbde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit25_1
+    second: {fileID: 2100000, guid: 97a92d714dcccc04fbd815096ae7c1d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit25_2
+    second: {fileID: 2100000, guid: 869fa6faa3157c84d83d2cbdf14a2819, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit25_3
+    second: {fileID: 2100000, guid: df2ab2e08ceba804692fd975f6f6086e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit25_4
+    second: {fileID: 2100000, guid: 841ea80bd96f3c1408b2264246239ad0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit25_5
+    second: {fileID: 2100000, guid: a81e5a5579c9b42428956f1b27ce2893, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit26_1
+    second: {fileID: 2100000, guid: 9ceaf41698312bb4babc287726ea576f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit26_2
+    second: {fileID: 2100000, guid: 01d76d5d138577f43b6fbc551225258d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit26_3
+    second: {fileID: 2100000, guid: 79780626be7f4d44eb89210472796508, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit26_4
+    second: {fileID: 2100000, guid: 05ed32d79971ad14b99a093259a53071, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit27_1
+    second: {fileID: 2100000, guid: 4095d7e8b05241a4c8c9d23fb8caaa86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit27_2
+    second: {fileID: 2100000, guid: 8e1756266eee007479ccafc2cdf8e875, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit27_3
+    second: {fileID: 2100000, guid: 0de1f2ffcdee8be4891203ec0485b0d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit27_4
+    second: {fileID: 2100000, guid: 14715fc23ddc5e14a947daaa8ee82185, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit27_5
+    second: {fileID: 2100000, guid: 3fa7dc950070f8a459fee9627a6228cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit28_1
+    second: {fileID: 2100000, guid: 859b681b6bc19644789494ec7886835c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit28_2
+    second: {fileID: 2100000, guid: 071e1396d3a1fc64a82a149223f2eed2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit28_3
+    second: {fileID: 2100000, guid: 4676bfef80657e24a8aa558e0ee529eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit28_4
+    second: {fileID: 2100000, guid: df1cf553c235f174e9cde62ef11b99bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit28_5
+    second: {fileID: 2100000, guid: 10479b4ef21f8f642ada3e74bb3f3249, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit29_1
+    second: {fileID: 2100000, guid: 061ac12c513ae674eac55ea77283c3fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit29_2
+    second: {fileID: 2100000, guid: 6b1d7c14026ad564b9cdab376fe85265, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit29_3
+    second: {fileID: 2100000, guid: 6e23c342b47793545853438104ac2e5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit29_4
+    second: {fileID: 2100000, guid: 2fbfc39dab99f3246ba2e3c6d410d539, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit29_5
+    second: {fileID: 2100000, guid: a61476a532530904089797c44cf6ed5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit2_1
+    second: {fileID: 2100000, guid: 180a8c5eacebd0f448518a90062f1186, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit2_2
+    second: {fileID: 2100000, guid: 5bac135df12398d469a61841caec93ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit2_3
+    second: {fileID: 2100000, guid: 41c6104c6b0dd2448b796f9cc7f1ff20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit2_5
+    second: {fileID: 2100000, guid: 2b9b8a06e9903f74087182905e3fa7db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit30_1
+    second: {fileID: 2100000, guid: b6f869442c1948140b503023a61e199e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit30_2
+    second: {fileID: 2100000, guid: 8079715bc9805584b902f58f5c6558f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit30_3
+    second: {fileID: 2100000, guid: 9499dd86c104da84993b37a5757f3c29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit30_4
+    second: {fileID: 2100000, guid: c975f237ab5b49e4b8f1b531f9aa3dce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit30_5
+    second: {fileID: 2100000, guid: 55152925086100a48a2efb77cfd45c98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit3_1
+    second: {fileID: 2100000, guid: be5ae2c2776f6aa4f88d042c8b02bb7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit3_2
+    second: {fileID: 2100000, guid: 2ad3d9b9468f2ae479b13ca9cc316d8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit3_3
+    second: {fileID: 2100000, guid: ec68fd54d242c8a4e83df85aadf277f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit4_1
+    second: {fileID: 2100000, guid: 5b402ca471c375e42b0ffb5a2ae6d34a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit4_2
+    second: {fileID: 2100000, guid: bbcbbe3bb313a914e91a37636ef02835, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit4_3
+    second: {fileID: 2100000, guid: ab99645bd322d6444af0ec555f608443, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit5_1
+    second: {fileID: 2100000, guid: 42cb8692fa748b9429bbf529a2a59a1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit5_2
+    second: {fileID: 2100000, guid: ae9e0c07e0d45ec448b3025905f00585, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit5_3
+    second: {fileID: 2100000, guid: 1a0072fe41ebc8847a4040869e20464f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit6_1
+    second: {fileID: 2100000, guid: 724829223389dcb4b9fb799e64de105c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit6_2
+    second: {fileID: 2100000, guid: 46951e1523038dd45b68711f8184b4b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit6_3
+    second: {fileID: 2100000, guid: 5164f851021ea164298671bfc2f804c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit6_4
+    second: {fileID: 2100000, guid: cba9d5b667635e84dbe735a15832bec9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit7_1
+    second: {fileID: 2100000, guid: 95af7e0aeecacf242b7594d8d63da389, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit7_2
+    second: {fileID: 2100000, guid: d274eb89501acc1419dafdd4d7aa6d87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit7_3
+    second: {fileID: 2100000, guid: 05a5989363ac8414b8435494ecd4b8b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit8_1
+    second: {fileID: 2100000, guid: 7d90857ae7fb1484b8e18321959eb5ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit8_2
+    second: {fileID: 2100000, guid: b9df41aba285fde4694320230358289f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit8_3
+    second: {fileID: 2100000, guid: 195d263c803e2454f8848d6f9e8520eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit8_4
+    second: {fileID: 2100000, guid: 1722193aa604ae6439d83b75563d26dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit9_1
+    second: {fileID: 2100000, guid: 0ed261487c946ac43b0356ae313c5768, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit9_2
+    second: {fileID: 2100000, guid: 0d0335330efa8ce47acb84063744fa9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit9_3
+    second: {fileID: 2100000, guid: 30a6c65eac0c6a84bb84c934bd7405b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit9_4
+    second: {fileID: 2100000, guid: a4fdc596274fb1d4084b3a84bd91d130, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_31_1
+    second: {fileID: 2100000, guid: 8aa95c7ecc94801429229777e9f93d8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_31_2
+    second: {fileID: 2100000, guid: c0899d9a5bddc6d449cdb6a1d9bb4ce3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_31_3
+    second: {fileID: 2100000, guid: 6a5986b2822e9eb47b7df2358765b00d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_31_f_1
+    second: {fileID: 2100000, guid: 15e071900fae23b43b9a71165096b093, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_31_f_2
+    second: {fileID: 2100000, guid: e95433d1d83f6b94fbb48c225627b805, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_31_f_3
+    second: {fileID: 2100000, guid: f724ec4ee4a487d408e9351462bf129f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_32_1
+    second: {fileID: 2100000, guid: 7fff3493c5b4db545898d0b0598d8ec5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_32_2
+    second: {fileID: 2100000, guid: dafa9a8c2d60c1a4f8717aafa333ec77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_32_3
+    second: {fileID: 2100000, guid: 98156e41219294443ae964693dce30ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_32_f_1
+    second: {fileID: 2100000, guid: e20cdb6fa820c874c98b346de42e491f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_32_f_2
+    second: {fileID: 2100000, guid: 4b169fde6923fb44fa87721630d6cd2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_32_f_3
+    second: {fileID: 2100000, guid: e8bc56babf8b0154da0f4b565c6c4248, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_33_1
+    second: {fileID: 2100000, guid: db2acda710fff0547ba1a6a97f0b06c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_33_2
+    second: {fileID: 2100000, guid: ae6ffc01576580a4f9855596c2433b05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_33_3
+    second: {fileID: 2100000, guid: 750842dc91618b54c898e8dc85037ace, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_33_f_1
+    second: {fileID: 2100000, guid: 619bca28400c35046b42e441cd703241, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_33_f_2
+    second: {fileID: 2100000, guid: b6e64336b0d209d41af1ae52147980a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_33_f_3
+    second: {fileID: 2100000, guid: c1fb6bba5143d18438a015c1779dab34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_34_1
+    second: {fileID: 2100000, guid: 02dead4424ff46d4aadf6ceec7cd7828, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_34_2
+    second: {fileID: 2100000, guid: c39c4c15ba786e84b90226a046055cad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_34_3
+    second: {fileID: 2100000, guid: c32208e0811c76247b6adc7a0a0ba085, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_34_f_1
+    second: {fileID: 2100000, guid: fbabfae15f24f644d9e0f1db2a01caf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_34_f_2
+    second: {fileID: 2100000, guid: 8ad457f4cc599c646937e35db82c4c19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_34_f_3
+    second: {fileID: 2100000, guid: f843de6d0df526b4d8072a5f6767d0b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_35_1
+    second: {fileID: 2100000, guid: 0fb5cd91d40e16646b1d93dd11d14986, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_35_2
+    second: {fileID: 2100000, guid: 94606ebb9a35c7d4a9e2ba7ca0486d48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_35_3
+    second: {fileID: 2100000, guid: 896eddae9ee912343a34e95fadf7d02e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_35_4
+    second: {fileID: 2100000, guid: 453e926fbab88124b80316493ac00438, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_35_5
+    second: {fileID: 2100000, guid: bcb80e81513abb64dbb31508293976f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_35_f_1
+    second: {fileID: 2100000, guid: de2bdc1eabedba94881bbde14b81d39a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_35_f_2
+    second: {fileID: 2100000, guid: bc654ee25938f79449833f4efeafef3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_35_f_3
+    second: {fileID: 2100000, guid: 7a7a3e577b9a1e1469ec96f54fb4c5ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_35_f_4
+    second: {fileID: 2100000, guid: 3aeda10b497e70f4eae83e191c624d88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suit_35_f_5
+    second: {fileID: 2100000, guid: afd172dae91c5b94f98f690c32b27990, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White Shoe
+    second: {fileID: 2100000, guid: b224d3825d4ee96449fbc70b6c43ff80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WhteShoe
+    second: {fileID: 2100000, guid: 90dbc4380373bb5408f9144b120ee63b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: indigo
+    second: {fileID: 2100000, guid: 502e54bfda782d34f8d0a171bda87a09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: orange
+    second: {fileID: 2100000, guid: e42f4eb5d1198e64eaa553fcce161baf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: 9e6e85822a495ef48bb1ce8a2063b7c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellow
+    second: {fileID: 2100000, guid: b8b34a01875e02a4fb3ccd737afe00f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yellow.001
+    second: {fileID: 2100000, guid: 2dcfa6dfdaed3474b8a50ed347bd991e, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: rig|Base
+      takeName: rig|Base
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig|BlockUp
+      takeName: rig|BlockUp
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig|Falling
+      takeName: rig|Falling
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig|Hanging_Idle
+      takeName: rig|Hanging_Idle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig|Hanging_Stress
+      takeName: rig|Hanging_Stress
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig|Happy
+      takeName: rig|Happy
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig|Idle
+      takeName: rig|Idle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1099
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig|Look_Cloth
+      takeName: rig|Look_Cloth
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig|Look_Hair
+      takeName: rig|Look_Hair
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig|Look_Shoe
+      takeName: rig|Look_Shoe
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig|Sad
+      takeName: rig|Sad
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig|Strees
+      takeName: rig|Strees
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig|Success
+      takeName: rig|Success
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig|Swim
+      takeName: rig|Swim
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig|WaterRise_Panic
+      takeName: rig|WaterRise_Panic
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig|Happy2
+      takeName: rig|Happy2
+      internalID: 5489347403291190864
+      firstFrame: 0
+      lastFrame: 155
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig|Happy3
+      takeName: rig|Happy3
+      internalID: -8783541809579564044
+      firstFrame: 0
+      lastFrame: 56
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig|Happy4
+      takeName: rig|Happy4
+      internalID: -6133273311648674009
+      firstFrame: 0
+      lastFrame: 163
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig|Sad2
+      takeName: rig|Sad2
+      internalID: -416272775680533300
+      firstFrame: 0
+      lastFrame: 143
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: avatar_New_V2(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bottoms_LongSkirt
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bottoms_Pants
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bottoms_Shorts
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bottoms_ShortSkirt
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Boy_Hair_1.1
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Boy_Hair_1.2
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Boy_Hair_1.3
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Boy_Hair_1.4
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Boy_Hair_1.5
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Boy_Hair_1.6
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Boy_Hair_1.7
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Boy_Hair_1.8
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Boy_Hair_1.9
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Boy_Hair_1.10
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Feet_Shoes
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Feet_Shoes1
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Feet_Socks
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Girl_Hair_1.1
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Girl_Hair_1.2
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Girl_Hair_1.3
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Girl_Hair_1.4
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Girl_Hair_1.5
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Girl_Hair_1.6
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Girl_Hair_1.7
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Girl_Hair_1.8
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Girl_Hair_1.9
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hairs_Female
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hairs_FemaleLong
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hairs_Male
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hairs_PigTail
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hairs_PonyTail
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Hairs_Wigs
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Pants1
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Pants2
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: rig
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: MCH-torso.parent
+      parentName: rig
+      position: {x: -0, y: 0.00023835788, z: 0.0071349335}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: torso
+      parentName: MCH-torso.parent
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-spine.001
+      parentName: torso
+      position: {x: -0, y: -0.000235724, z: 0.0013781303}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_fk.001
+      parentName: MCH-spine.001
+      position: {x: -0, y: -7.4505804e-11, z: 0}
+      rotation: {x: 0.74931526, y: 0.0017079809, z: 0.001932647, w: 0.66220844}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-spine
+      parentName: spine_fk.001
+      position: {x: 1.0913936e-13, y: -0.00089968083, z: -1.8626451e-11}
+      rotation: {x: -0.74931514, y: -0.0017079805, z: -0.0019326474, w: 0.66220856}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: spine_fk
+      parentName: MCH-spine
+      position: {x: -1.7976689e-13, y: 4.6566126e-11, z: -5.9604643e-10}
+      rotation: {x: 0.79045546, y: -0.000000073237736, z: -0.00000009432625, w: 0.6125195}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: tweak_spine
+      parentName: spine_fk
+      position: {x: 8.409072e-18, y: -0.0010022846, z: 0}
+      rotation: {x: 0.0000000782311, y: 1.3322677e-14, z: -1.6844163e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ORG-spine
+      parentName: tweak_spine
+      position: {x: -1.6015835e-17, y: 1.862645e-10, z: -1.11758706e-10}
+      rotation: {x: -0.0000000782311, y: -4.440892e-15, z: 2.2436913e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-thigh.L
+      parentName: ORG-spine
+      position: {x: -0.00068168755, y: 0.0004192948, z: 0.00018293524}
+      rotation: {x: 0.984419, y: -0.02062873, z: 0.055957176, w: 0.16541621}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: DEF-thigh.L.001
+      parentName: DEF-thigh.L
+      position: {x: -6.4028427e-12, y: 0.0017447043, z: -1.3969838e-11}
+      rotation: {x: -0.000000026309866, y: 0.000000094762086, z: 0.0000000204891,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: DEF-shin.L
+      parentName: DEF-thigh.L.001
+      position: {x: 3.7252902e-11, y: 0.0017447064, z: -6.519258e-11}
+      rotation: {x: 0.13009104, y: -0.00000052753705, z: -0.000000025361226, w: 0.99150205}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: DEF-shin.L.001
+      parentName: DEF-shin.L
+      position: {x: -3.3760442e-11, y: 0.0015137924, z: 5.5879353e-11}
+      rotation: {x: 0.000000006868504, y: 0.000000037951402, z: 0.000000020954758,
+        w: 1}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999998}
+    - name: DEF-foot.L
+      parentName: DEF-shin.L.001
+      position: {x: -1.7695129e-10, y: 0.001513793, z: -2.7939677e-11}
+      rotation: {x: -0.63734794, y: -0.034624908, z: -0.048557926, w: 0.7682649}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999905}
+    - name: DEF-toe.L
+      parentName: DEF-foot.L
+      position: {x: 4.1524117e-13, y: 0.0012602477, z: -5.986749e-12}
+      rotation: {x: 0.00003223069, y: 0.9833011, z: -0.18198623, w: -0.00016535382}
+      scale: {x: 1, y: 1.0000001, z: 1.0000007}
+    - name: DEF-thigh.R
+      parentName: ORG-spine
+      position: {x: 0.00068168767, y: 0.00041929487, z: 0.00018293493}
+      rotation: {x: 0.98441905, y: 0.020628758, z: -0.055957437, w: 0.16541597}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: DEF-thigh.R.001
+      parentName: DEF-thigh.R
+      position: {x: -6.402843e-11, y: 0.0017447048, z: 0}
+      rotation: {x: -0.0000000012805689, y: -0.00000009627548, z: -0.00000001373701,
+        w: 1}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: DEF-shin.R
+      parentName: DEF-thigh.R.001
+      position: {x: -3.4924594e-11, y: 0.0017447062, z: 5.5879353e-11}
+      rotation: {x: 0.13009042, y: 0.0000005439748, z: 0.000000024187088, w: 0.9915021}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: DEF-shin.R.001
+      parentName: DEF-shin.R
+      position: {x: 3.899913e-11, y: 0.0015137927, z: 8.381903e-11}
+      rotation: {x: 0.000000016181728, y: -0.0000000379514, z: 0.000000016298145,
+        w: 1}
+      scale: {x: 0.9999999, y: 1.0000002, z: 0.9999999}
+    - name: DEF-foot.R
+      parentName: DEF-shin.R.001
+      position: {x: 1.16415315e-11, y: 0.0015137927, z: 2.7939677e-11}
+      rotation: {x: -0.63734776, y: 0.034624916, z: 0.048557892, w: 0.768265}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999887}
+    - name: DEF-toe.R
+      parentName: DEF-foot.R
+      position: {x: -2.92129e-11, y: 0.0012602526, z: 7.634071e-13}
+      rotation: {x: 0.000030578027, y: 0.98330104, z: -0.1819863, w: -0.00017412103}
+      scale: {x: 1, y: 1.0000001, z: 1.0000007}
+    - name: ORG-pelvis.L
+      parentName: ORG-spine
+      position: {x: -7.168744e-18, y: 8.475035e-10, z: 3.7252902e-11}
+      rotation: {x: -0.1524552, y: 0.7933308, z: 0.28550392, w: 0.51562697}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: DEF-pelvis.L
+      parentName: ORG-pelvis.L
+      position: {x: -4.161273e-11, y: -3.2679245e-11, z: -9.4267615e-11}
+      rotation: {x: 0.000000031664968, y: -0.00000009313226, z: 0.000000029802322,
+        w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: ORG-pelvis.R
+      parentName: ORG-spine
+      position: {x: -7.168744e-18, y: 8.475035e-10, z: 3.7252902e-11}
+      rotation: {x: -0.15245527, y: -0.79333067, z: -0.28550383, w: 0.5156272}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: DEF-pelvis.R
+      parentName: ORG-pelvis.R
+      position: {x: -7.499106e-11, y: -5.225323e-10, z: 1.0501934e-10}
+      rotation: {x: 0.000000014901161, y: 0.00000007636845, z: 0.000000026077032,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: MCH-spine.002
+      parentName: torso
+      position: {x: -0, y: -0.000235724, z: 0.0013781303}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_fk.002
+      parentName: MCH-spine.002
+      position: {x: -0, y: -7.4505804e-11, z: 0}
+      rotation: {x: 0.6957685, y: -0.000013785469, z: -0.000013353675, w: 0.7182661}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MCH-spine.003
+      parentName: spine_fk.002
+      position: {x: 1.4337758e-15, y: 0.0011383732, z: -2.3283064e-12}
+      rotation: {x: -0.6957685, y: 0.000013785466, z: 0.000013353674, w: 0.7182661}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: spine_fk.003
+      parentName: MCH-spine.003
+      position: {x: -1.4044291e-15, y: -3.7252902e-11, z: 0}
+      rotation: {x: 0.6913185, y: -0.0001900993, z: -0.00018188242, w: 0.72255015}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: tweak_spine.003
+      parentName: spine_fk.003
+      position: {x: -1.1853925e-14, y: 6.145274e-10, z: 1.6298145e-11}
+      rotation: {x: 0.00000002980233, y: 5.9685595e-13, z: -1.56977e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ORG-spine.003
+      parentName: tweak_spine.003
+      position: {x: -1.1809793e-14, y: 6.1219907e-10, z: 1.6298145e-11}
+      rotation: {x: -0.000000029802315, y: 5.9685595e-13, z: 1.5794508e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ORG-shoulder.L
+      parentName: ORG-spine.003
+      position: {x: -0.00027210455, y: 0.00063731184, z: 0.00018393864}
+      rotation: {x: -0.5997991, y: 0.39992177, z: 0.40898558, w: 0.5594948}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: DEF-shoulder.L
+      parentName: ORG-shoulder.L
+      position: {x: -8.381903e-11, y: -2.7474015e-10, z: -1.8801075e-10}
+      rotation: {x: 0.000000013504179, y: -0.000000005355105, z: 0.00000002444722,
+        w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: DEF-upper_arm.L
+      parentName: ORG-shoulder.L
+      position: {x: -0.000054764096, y: 0.0010784012, z: -0.00029859226}
+      rotation: {x: 0.06465243, y: -0.75423586, z: 0.038983632, w: 0.65224886}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.99999994}
+    - name: DEF-upper_arm.L.001
+      parentName: DEF-upper_arm.L
+      position: {x: 6.984919e-12, y: 0.0009028499, z: -3.7252902e-11}
+      rotation: {x: -0.000000013329553, y: 0.0000000630971, z: 0.0000000027939673,
+        w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: DEF-forearm.L
+      parentName: DEF-upper_arm.L.001
+      position: {x: 1.6298145e-11, y: 0.0009028497, z: 3.7252902e-11}
+      rotation: {x: 0.1181065, y: 0.000002671073, z: -0.0000005026488, w: 0.9930009}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999998}
+    - name: DEF-forearm.L.001
+      parentName: DEF-forearm.L
+      position: {x: 1.2805686e-10, y: 0.0011547589, z: -8.381903e-11}
+      rotation: {x: 0.000000019092443, y: 0.0000038727103, z: 0.00000025239277, w: 1}
+      scale: {x: 0.9999829, y: 0.9999829, z: 0.99998266}
+    - name: DEF-hand.L
+      parentName: DEF-forearm.L.001
+      position: {x: -4.4237822e-10, y: 0.0011547584, z: 0}
+      rotation: {x: 0.0026570112, y: 0.000017363358, z: -0.0076424866, w: 0.9999673}
+      scale: {x: 1.0000173, y: 1.0000169, z: 1.0000175}
+    - name: ORG-upper_arm.L
+      parentName: ORG-shoulder.L
+      position: {x: -0.000054764096, y: 0.0010784012, z: -0.00029859226}
+      rotation: {x: 0.064652435, y: -0.7542356, z: 0.038983725, w: 0.65224916}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: ORG-forearm.L
+      parentName: ORG-upper_arm.L
+      position: {x: -2.3283063e-11, y: 0.0018056991, z: -3.7252902e-11}
+      rotation: {x: 0.11810654, y: 0.000002301838, z: -0.00000035452123, w: 0.9930009}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: ORG-hand.L
+      parentName: ORG-forearm.L
+      position: {x: -5.0291415e-10, y: 0.0023095186, z: 1.8626451e-11}
+      rotation: {x: 0.0026569504, y: 0.000020889727, z: -0.007642879, w: 0.9999673}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: ORG-hand2.L
+      parentName: ORG-hand.L
+      position: {x: -8.312054e-10, y: 0.0013168338, z: -1.8626451e-11}
+      rotation: {x: -0.020347696, y: 0.044304732, z: -0.017090026, w: 0.9986646}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.99999994}
+    - name: DEF-hand2.L
+      parentName: ORG-hand2.L
+      position: {x: -2.696173e-10, y: 5.21589e-11, z: -1.8402061e-11}
+      rotation: {x: 0.0000000018074828, y: -1.882175e-16, z: 0.0000000022571929, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ORG-shoulder.R
+      parentName: ORG-spine.003
+      position: {x: 0.00027229797, y: 0.00063731184, z: 0.00018365217}
+      rotation: {x: -0.60001415, y: -0.39962736, z: -0.4086699, w: 0.5597052}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: DEF-shoulder.R
+      parentName: ORG-shoulder.R
+      position: {x: 3.7252902e-11, y: -7.4505804e-11, z: 0.0000000010366784}
+      rotation: {x: 0.0000000027939675, y: -0.000000029802322, z: -0.000000033061955,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: DEF-upper_arm.R
+      parentName: ORG-shoulder.R
+      position: {x: 0.000054764114, y: 0.001078401, z: -0.00029859107}
+      rotation: {x: 0.06465248, y: 0.7542357, z: -0.038983714, w: 0.65224904}
+      scale: {x: 0.9999996, y: 1.0000004, z: 0.9999996}
+    - name: DEF-upper_arm.R.001
+      parentName: DEF-upper_arm.R
+      position: {x: -1.3969838e-11, y: 0.00090284954, z: -3.7252902e-11}
+      rotation: {x: -0.0000000017462298, y: -0.000000045401976, z: 0.0000000023283064,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-forearm.R
+      parentName: DEF-upper_arm.R.001
+      position: {x: -2.7939677e-11, y: 0.00090284995, z: 0}
+      rotation: {x: 0.118106626, y: -0.0000026365174, z: 0.00000049198036, w: 0.9930009}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: DEF-forearm.R.001
+      parentName: DEF-forearm.R
+      position: {x: 9.918585e-10, y: 0.0011547587, z: -2.7939677e-11}
+      rotation: {x: 0.0000000072178743, y: -0.000003908421, z: -0.0000002535569, w: 1}
+      scale: {x: 0.9999829, y: 0.99998313, z: 0.9999826}
+    - name: DEF-hand.R
+      parentName: DEF-forearm.R.001
+      position: {x: 2.6542693e-10, y: 0.0011547586, z: -7.4505804e-11}
+      rotation: {x: 0.002656978, y: -0.000017323364, z: 0.0076424954, w: 0.9999673}
+      scale: {x: 1.0000174, y: 1.0000165, z: 1.0000178}
+    - name: ORG-upper_arm.R
+      parentName: ORG-shoulder.R
+      position: {x: 0.000054764114, y: 0.001078401, z: -0.00029859107}
+      rotation: {x: 0.06465252, y: 0.75423557, z: -0.03898389, w: 0.6522492}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: ORG-forearm.R
+      parentName: ORG-upper_arm.R
+      position: {x: 8.381903e-11, y: 0.0018056985, z: -7.4505804e-11}
+      rotation: {x: 0.11810655, y: -0.000002215904, z: 0.0000003481319, w: 0.9930009}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: ORG-hand.R
+      parentName: ORG-forearm.R
+      position: {x: 0.0000000012153759, y: 0.0023095182, z: -3.7252902e-11}
+      rotation: {x: 0.0026569418, y: -0.000020888796, z: 0.0076429043, w: 0.9999673}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: ORG-hand2.R
+      parentName: ORG-hand.R
+      position: {x: 2.6077032e-10, y: 0.0013168339, z: 5.5879353e-11}
+      rotation: {x: -0.020347694, y: -0.044304717, z: 0.017090028, w: 0.9986646}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: DEF-hand2.R
+      parentName: ORG-hand2.R
+      position: {x: 2.7787017e-10, y: 5.2690724e-10, z: -8.568719e-12}
+      rotation: {x: 4.7071726e-15, y: -0.0000000018626456, z: -2.7755582e-17, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: root
+      parentName: rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-spine
+      parentName: root
+      position: {x: 4.972864e-14, y: 0.00036346287, z: 0.006649658}
+      rotation: {x: 0.79045546, y: -0.000000073237736, z: -0.00000009432624, w: 0.6125195}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: DEF-spine.001
+      parentName: DEF-spine
+      position: {x: 2.0365653e-17, y: 0.0010022853, z: 1.6763806e-10}
+      rotation: {x: -0.064476155, y: 0.0025739616, z: -0.00016629035, w: 0.9979159}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: DEF-spine.002
+      parentName: DEF-spine.001
+      position: {x: -3.998379e-13, y: 0.00089968066, z: -9.779084e-11}
+      rotation: {x: -0.07746385, y: -0.0025905934, z: -0.00019830982, w: 0.9969918}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: DEF-spine.003
+      parentName: DEF-spine.002
+      position: {x: -2.0102843e-15, y: 0.0011383732, z: -9.313233e-12}
+      rotation: {x: -0.006176891, y: -0.00024389847, z: 0.0000017441544, w: 0.9999809}
+      scale: {x: 0.99999976, y: 0.99999976, z: 0.99999976}
+    - name: DEF-spine.004
+      parentName: DEF-spine.003
+      position: {x: -7.143921e-15, y: 0.000820127, z: 1.396993e-11}
+      rotation: {x: 0.32954332, y: 0.012576436, z: 0.0042166864, w: 0.9440473}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: DEF-spine.005
+      parentName: DEF-spine.004
+      position: {x: -2.3488683e-12, y: 0.00027363226, z: -3.3992567e-10}
+      rotation: {x: -0.14271161, y: -0.029932331, z: 0.0005895294, w: 0.98931146}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: DEF-spine.006
+      parentName: DEF-spine.005
+      position: {x: 1.788849e-12, y: 0.00023027624, z: -2.694244e-10}
+      rotation: {x: -0.16970998, y: 0.016938196, z: 0.0029173323, w: 0.9853442}
+      scale: {x: 0.99999976, y: 0.99999976, z: 0.9999999}
+    - name: Shoe1
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Shoe2
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Shoe3
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Shoe4
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Shoe5
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Shoe6
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Shoe7
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Shoe8
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Shoe9
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Shoe10
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Shoe11
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Shoe12
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Shoe13
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Shoe14
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Shoe15
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Shoe16
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Shoe17
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Shoe18
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Suit1
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Suit2
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Suit3
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Suit4
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Suit5
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Suit6
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Suit7
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Suit8
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Suit9
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Suit10
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Suit11
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Suit12
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Suit13
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Suit14
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Suit15
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Suit16
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Suit17
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Suit18
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Suit19
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Top_Jacket
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Top_TShirt
+      parentName: avatar_New_V2(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: root
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

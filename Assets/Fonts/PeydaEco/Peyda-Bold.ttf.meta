@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: dde5878fb01047b42962a60cc8d1c65e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Peyda
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2b9dda22e8c7ead46817e68098215ae4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

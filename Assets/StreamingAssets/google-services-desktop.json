@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "768237336325",
+    "project_id": "deathmatch-673e9",
+    "storage_bucket": "deathmatch-673e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768237336325:android:cbe21de22156629471296c",
+        "android_client_info": {
+          "package_name": "com.deathmatchgame.checkpointstudio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768237336325-4gsm13vl12lfv3mv5fhf2avrmscdtlct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh6IAC0iqz2ZbXwlUuarCKfqjoHXX2H08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768237336325-4gsm13vl12lfv3mv5fhf2avrmscdtlct.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

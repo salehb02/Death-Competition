@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d12db1c265595974a8797b34626f90cb, type: 3}
+  m_Name: Game Manager
+  m_EditorClassIdentifier: 
+  SFXBank:
+    lose: {fileID: 8300000, guid: c60c856c0ae123346a038208d3a9c997, type: 3}
+    endGame: {fileID: 8300000, guid: 6b9a72be39466114cbaea7c27349b7b3, type: 3}
+    endPanel: {fileID: 8300000, guid: 5b6031019dd80cb4fb3074097022cb62, type: 3}
+    correctAnswer: {fileID: 8300000, guid: d50938971aa9cca4b941b3be0bf72752, type: 3}
+    wrongAnswer: {fileID: 8300000, guid: d7eeafa1c1505224380037214bd7c9bb, type: 3}
+    changeCloth: {fileID: 8300000, guid: 243ca577bb465ec459f493689af27dba, type: 3}
+    startBtn: {fileID: 8300000, guid: 81205265bb0a43143bc7a2274923251b, type: 3}
+    settingPopUp: {fileID: 8300000, guid: 5e9817f5841acc04f931633c63cd2369, type: 3}
+    settingClose: {fileID: 8300000, guid: adf7463bd112a004f83d5cb703cd8e93, type: 3}
+    confirm: {fileID: 8300000, guid: 420605b7cf6067644a7c52b5d45bca22, type: 3}
+    cancel: {fileID: 8300000, guid: b2ab14f0624e8fc4487104a048ea32b1, type: 3}
+    deleteKey: {fileID: 8300000, guid: be0926ed87eafda4f8ee13d0d4ad1d44, type: 3}
+    sharkAttack: {fileID: 8300000, guid: 502bd1a822617cb408618e68229f7609, type: 3}
+    error: {fileID: 8300000, guid: 1927af68c23cef04188e9db92d9b7d35, type: 3}
+    questionNotification: {fileID: 8300000, guid: 7385fc38542b190489ece94565175575,
+      type: 3}
+    timeOver: {fileID: 8300000, guid: 707e403ccde6cbe4e9505de5d9456c86, type: 3}
+    falling: {fileID: 8300000, guid: 5d9cca2f1ac4a944182827b73f3140a5, type: 3}
+    maleScream: {fileID: 8300000, guid: 054aa9bbbdbf08c4397077914c9f0691, type: 3}
+    femaleScream: {fileID: 8300000, guid: 4ed9646b960655f4191b3d2fa100e109, type: 3}
+    cardFlip: {fileID: 8300000, guid: 14cd6edba8d324448acd7b7afd45cf5d, type: 3}
+    rewardsScreenIntro: {fileID: 8300000, guid: 0c10129e94c80ea40b000f6a2005f99e,
+      type: 3}
+    pirateShipEntrance: {fileID: 8300000, guid: bd110f2357f8b1b4085cc5c06192e1d3,
+      type: 3}
+    buttons:
+    - {fileID: 8300000, guid: 7d2ef594b7e6c544f92245e17c64a038, type: 3}
+    - {fileID: 8300000, guid: a99f9e4c4dea7b84eb5d98078329cc38, type: 3}
+    - {fileID: 8300000, guid: bd55c8c5a9cd16b47aa21efe99ec56da, type: 3}
+    boosters:
+    - {fileID: 8300000, guid: 2a4b9ce92167a1c4baeec0e5c917ff3f, type: 3}
+    - {fileID: 8300000, guid: 8ba289f630307174b882b5ed4a173f2a, type: 3}
+    - {fileID: 8300000, guid: ae608843c4ef3834fbfa36362c0365d2, type: 3}
+    moneyDecreases:
+    - {fileID: 8300000, guid: 9b48f406fe32d274abd0045b49e1ad89, type: 3}
+    - {fileID: 8300000, guid: 128548fa9b3330f4186cf9ebf84362f1, type: 3}
+    keyboards:
+    - {fileID: 8300000, guid: 9dfb976e5ca321a428a13f0ee98840b0, type: 3}
+    - {fileID: 8300000, guid: 90014d9223915dd4bbc5896adb0e996c, type: 3}
+    - {fileID: 8300000, guid: d1514ae1b48e3bb469b0a0ba4478cc72, type: 3}
+    - {fileID: 8300000, guid: 6fdb15957b89f5143b4002e62e716bc2, type: 3}
+    swims:
+    - {fileID: 8300000, guid: 46a23f36abf18e1478835794ec455a98, type: 3}
+    - {fileID: 8300000, guid: d2cd3911bd786f44486618e3203c33bb, type: 3}
+    - {fileID: 8300000, guid: e628bb2092028e64099961483c41b091, type: 3}
+    - {fileID: 8300000, guid: 2f0a07c6d3dfb554e84d37a14b2ae5b6, type: 3}
+    - {fileID: 8300000, guid: 2fcba3460f5c4d44da137d7e28ca81a3, type: 3}
+    sharkSwims:
+    - {fileID: 8300000, guid: 633e8b9335222c447b232d508f960a45, type: 3}
+    - {fileID: 8300000, guid: 7e91d9f6263c770409a9f767092d8a0f, type: 3}
+    - {fileID: 8300000, guid: cd5f97ee028245945967f316b6f0c782, type: 3}
+    blockRises:
+    - {fileID: 8300000, guid: 87f7607e6a5cb5e4a96259692c348848, type: 3}
+    - {fileID: 8300000, guid: f9e7c6231b9b4774d9c7d1dd81b5ff7a, type: 3}
+    blockFalls:
+    - {fileID: 8300000, guid: b4b8f84af681aaa4cbe1f3adde35bbf1, type: 3}
+    - {fileID: 8300000, guid: 14d2c2a0e3b7f774f950548bba0ada34, type: 3}
+    - {fileID: 8300000, guid: 03cb457bda0dfea4a962a575303ce910, type: 3}
+    answerSends:
+    - {fileID: 8300000, guid: 9157cbd3b6c07fc44860adf0e70af6b8, type: 3}
+    - {fileID: 8300000, guid: 39cd38abaf8443549b2cab0fb2858155, type: 3}
+    - {fileID: 8300000, guid: dde529a0f8867294fa823f4993b7e520, type: 3}
+    waterFalls:
+    - {fileID: 8300000, guid: 5124e950269cca344901c5033a524fee, type: 3}
+    - {fileID: 8300000, guid: c8499ef70f14aa94b98f41d1cc31331b, type: 3}
+    - {fileID: 8300000, guid: a219f3910d31acb4e9fc4df9071af27b, type: 3}
+    fears:
+    - {fileID: 8300000, guid: c1f6f6498c06af64cb5f4990bf7b7ffd, type: 3}
+    - {fileID: 8300000, guid: dee084b23edffe4488e8d699d58db019, type: 3}
+    - {fileID: 8300000, guid: d43aa482b2d155341a9d2ce49c942d40, type: 3}
+    - {fileID: 8300000, guid: 08c9252d20cde764bbc56e3d01ebccbe, type: 3}
+    - {fileID: 8300000, guid: 68816d23e1a91cf4f9ecfb6c187a2691, type: 3}
+    - {fileID: 8300000, guid: 4d41177b08c78f24db6408e3989e0403, type: 3}
+    laughs:
+    - {fileID: 8300000, guid: 91b0c3d4a40847846a7629fd2e2ed4b2, type: 3}
+    - {fileID: 8300000, guid: d5dc046cd0395f04eaa30663b84d5ac7, type: 3}
+    - {fileID: 8300000, guid: 3517ad73278ecb54d978ad4174dda789, type: 3}
+    - {fileID: 8300000, guid: 4299c201f63f6f54daa8fc9632699bd2, type: 3}
+    - {fileID: 8300000, guid: 86dd5e1a6f5020045a412bb01f2cce3d, type: 3}
+    - {fileID: 8300000, guid: e0dd60bc9911fad4b8f44e79ef23f798, type: 3}
+    - {fileID: 8300000, guid: 433d2311298e08c479cc8ecec867ff00, type: 3}
+  musics:
+    menu: {fileID: 8300000, guid: 799d91d687df8bf4c9b497d56d7a7440, type: 3}
+    menuVolume: 0.25
+    gameplay: {fileID: 0}
+    gameplayVolume: 0
+  gameplayScene: Match
+  customizationScene: Customization
+  mainMenuScene: MainMenu
+  loadingScene: Loading
+  UpdateDescription: "- \u0631\u0641\u0639 \u0645\u0634\u06A9\u0644\u0627\u062A \u0631\u0648\u06CC\u062F\u0627\u062F"
+  tutorialQuestionsDatabase: {fileID: 4900000, guid: aa5dea9c085aea944839b7220a5bd1d0,
+    type: 3}
+  leagueIcons:
+  - {fileID: 21300000, guid: f7f901deb3edd944abc59271b2ba6eb2, type: 3}
+  - {fileID: 21300000, guid: 3ec741614357f48428603a9500ee3c38, type: 3}
+  - {fileID: 21300000, guid: 11cb7a13d35e113459cde7542d8f1e7a, type: 3}
+  - {fileID: 21300000, guid: 595537f5421039b4a80c3e0944e539cd, type: 3}
+  - {fileID: 21300000, guid: 0ab8aeaaa6129b44cad77682dc263604, type: 3}
+  - {fileID: 21300000, guid: 1a5ad48165741624099cfd95f1f6e93b, type: 3}
+  - {fileID: 21300000, guid: e7c7be6b19dddcc44979bf6bfe1ee940, type: 3}
+  positionSprites:
+  - {fileID: 21300000, guid: 3c1085c9a144b7c429b114191528df37, type: 3}
+  - {fileID: 21300000, guid: 98e334a8cb97ada47856bfb10478baed, type: 3}
+  - {fileID: 21300000, guid: fbbaf0393a654bd41b3662108fe16adb, type: 3}
+  - {fileID: 21300000, guid: 779f6dd5afb39cb4d91c5daeae2bb124, type: 3}
+  customizationSprites:
+  - {fileID: 21300000, guid: a1466b924845c184c9b71e45a754e076, type: 3}
+  - {fileID: 21300000, guid: 0c49a5e0ca50f1642ad9066410962e0e, type: 3}
+  - {fileID: 21300000, guid: 2e3fb9547c95fc742877c1bae76ef4c3, type: 3}
+  - {fileID: 21300000, guid: 425afa6a37d2f9b4191a0b7e0b28ce90, type: 3}
+  - {fileID: 21300000, guid: bf9c03c6ef834104a8d97230b58f9169, type: 3}
+  - {fileID: 21300000, guid: c3dc0232dc216a24faac9942507fb17a, type: 3}
+  - {fileID: 21300000, guid: 0e17739360444cd41b2b3e229f320c18, type: 3}
+  - {fileID: 21300000, guid: b316d8d42d971874b8291e204058f3cc, type: 3}
+  - {fileID: 21300000, guid: 4f39bea431d5ce641808138f08ba920f, type: 3}
+  - {fileID: 21300000, guid: f636f885153fae84daa56f185636834d, type: 3}
+  - {fileID: 21300000, guid: a9939e4b32228d24382efcc0d9ecbdbf, type: 3}
+  - {fileID: 21300000, guid: 1d40914d72becd14a8e53dd3c3dfa877, type: 3}
+  - {fileID: 21300000, guid: c256d12a30d016b41877bf357c319534, type: 3}
+  - {fileID: 21300000, guid: 7c722cf3476c0a84d962322e01a08309, type: 3}
+  - {fileID: 21300000, guid: ea131932b5b8220479ac1baf03fa56eb, type: 3}
+  - {fileID: 21300000, guid: da8b7a2f5508c714c8a7a7f81d8ca73c, type: 3}
+  - {fileID: 21300000, guid: 9f53ca8e15347874f88c5bc9940bd9dd, type: 3}
+  - {fileID: 21300000, guid: 6385e4d2325c95042903a72262c7c2a2, type: 3}
+  - {fileID: 21300000, guid: a9c44f90c667be649be4ff063e34871d, type: 3}
+  - {fileID: 21300000, guid: 8e42ea3502206774a92e20d84cc01bd0, type: 3}
+  - {fileID: 21300000, guid: 4f47c551666ef9445a74a7850f48dd9f, type: 3}
+  - {fileID: 21300000, guid: e101965dcf0d399488499dfff59cd5fa, type: 3}
+  - {fileID: 21300000, guid: 7c0b62040d3908046ab948c6a07c87e5, type: 3}
+  - {fileID: 21300000, guid: f9b122a8841a32040be178a63d5a5a1f, type: 3}
+  - {fileID: 21300000, guid: 37af8ab719062b249bc67703257659b3, type: 3}
+  - {fileID: 21300000, guid: 176fe0fb910950a4ba8eefe279874d6c, type: 3}
+  - {fileID: 21300000, guid: 1f99184787a0a654fa839c10c0b380b6, type: 3}
+  - {fileID: 21300000, guid: 69753d53ff8fde94c941b4a7d0f0dea1, type: 3}
+  - {fileID: 21300000, guid: 7f0b5820ce149d2458362a202807084b, type: 3}
+  - {fileID: 21300000, guid: 2dd6d55409c781e41a2851ffee38edfe, type: 3}
+  - {fileID: 21300000, guid: 3d8a9f1a054a1df48b95ff7a72263011, type: 3}
+  - {fileID: 21300000, guid: 720ceeb61e7de3e4598951bebd71b9fa, type: 3}
+  - {fileID: 21300000, guid: 27d73dda9118c4d49bfe0e0c0e5b48d3, type: 3}
+  - {fileID: 21300000, guid: 3052e41fa873387428166471c64cb41b, type: 3}
+  - {fileID: 21300000, guid: dde17e861491ac147a429baedb357164, type: 3}
+  - {fileID: 21300000, guid: 2e3830ae7a4a04743a27a8ddca182b66, type: 3}
+  - {fileID: 21300000, guid: f40c176550aa7d34398213494a63e3ac, type: 3}
+  - {fileID: 21300000, guid: 1360431bb246ae54da8b83721d099468, type: 3}
+  - {fileID: 21300000, guid: 302e81a9faebea348ba11aab52d6594d, type: 3}
+  - {fileID: 21300000, guid: 650dcc382c356ee4493d81e922c4107f, type: 3}
+  - {fileID: 21300000, guid: b6611aabe655e0341aef795982c90caa, type: 3}
+  - {fileID: 21300000, guid: 13dd30ff41c4c3e41bb9e125a6a44c0b, type: 3}
+  - {fileID: 21300000, guid: 7209e8b189cd98040b0a4a0bebff6a8c, type: 3}
+  - {fileID: 21300000, guid: c60564131c3e0d24fb388bc898f99960, type: 3}
+  - {fileID: 21300000, guid: 4039e7b6963f11f4eadd5e914b23ce8c, type: 3}
+  questionCategoryIcons:
+  - {fileID: 21300000, guid: ea288bd79fd20bf4b84607c1a7fe4594, type: 3}
+  - {fileID: 21300000, guid: 9ecd87e15125f7e4cb5ca30f68e7a3df, type: 3}
+  - {fileID: 21300000, guid: 200a65266546e9f47be55871ca8d702b, type: 3}
+  - {fileID: 21300000, guid: b5bb5a73b0ec2544c91fa30747efe1af, type: 3}
+  - {fileID: 21300000, guid: dc4abf471a053cd40805566593c285e0, type: 3}
+  - {fileID: 21300000, guid: e7e67076166e4b04e8e4da941d1f62ee, type: 3}
+  - {fileID: 21300000, guid: e7db5f69e7feafe498887816cc28894b, type: 3}
+  - {fileID: 21300000, guid: 5a418feb93ba2b740818f758918802ba, type: 3}
+  - {fileID: 21300000, guid: 520c4e1ba3786c44cb5220a00b4cde6a, type: 3}
+  - {fileID: 21300000, guid: 3b22c17d719599f44a8ebfc8ad6d91c7, type: 3}
+  - {fileID: 21300000, guid: 609d8d686a1294840b7fcf71303e17d2, type: 3}
+  - {fileID: 21300000, guid: 667dbd71a51bff848995072fcd6be700, type: 3}
+  - {fileID: 21300000, guid: 9c929c41ebf3e7a418fc413c8e2b0fc0, type: 3}
+  - {fileID: 21300000, guid: 4ab80f59d8ce5ce4b9a6d3abb91f4c29, type: 3}
+  - {fileID: 21300000, guid: d88243671f361ee47ac229fa93ff1bad, type: 3}
+  - {fileID: 21300000, guid: 0710bae199ca2a243926350b9562ddd7, type: 3}
+  - {fileID: 21300000, guid: 95879b1b31f31254abd2f5cceb5e193b, type: 3}
+  - {fileID: 21300000, guid: 9863872b7c87fa548a1b5e8441a668f1, type: 3}
+  ShowFPS: 0
+  PrintLogs: 0
+  InfiniteWealth: 0
+  TestAds: 0
